@@ -2,16 +2,30 @@ Guide42
 ========================
 Guide42 - простая в использовании GUI библиотека для игрового движка [Defold](http://www.defold.com/).
 
+Guide 42 - An easy to use GUI library for the [Defold](http://www.defold.com/) game engine.
+
 Что доступно сейчас
 -----------------------
 Сейчас вы можете использовать динамический скролл, для однотипных по размеру объектов, добавлять объекты, удалять объекты а так же узнавать о касании по объекту.
+
+Features available now
+-----------------------
+Dynamic scrolling, adding and removing objects from scroll lists, detecting clicks on an object on a scroll list.
 
 Как использовать 
 -------------------
 Для примера я покажу, как добавить scroll в свой проект.
 
+How to use
+-------------------
+The below example will show you how to add a scroller to your project.
+
 Для начала чтобы использовать библиотеку необходимо указать в настройках проекта зависимость dependencies: https://github.com/Bytonaaa/Guide42/archive/master.zip, 
 а так же обновить все зависимость Project -> Fetch Libraries
+
+You must first add this project as a library to your Defold project as a dependency (add in game.project file):
+https://github.com/Bytonaaa/Guide42/archive/master.zip
+Once you have added, you must download the library by doing Project -> Fetch Libraries
 
 Затем вы должны добавить template из папки Guide42 в свою GUI сцену.
 В нашем случае мы добавим шаблон scroll_area.gui.
